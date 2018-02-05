@@ -1,0 +1,237 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 2rem;
+  font-weight:400;
+}
+
+ul {
+  -webkit-padding-start: 0px;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  font-weight:400;
+  color: #858585;
+  background-color: #363636;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #858585;
+  color:white;
+}
+
+/* Styling for the in text link */
+.in-text-link {
+  color:#363636;
+  font-weight:400;
+  text-decoration:none;
+}
+
+.in-text-link:hover, .in-text-link:focus {
+  color: #858585;
+}
+
+/* Styling for the submit button */
+.submitButton {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  font-weight:300;
+  background-color: #858585;
+  border-radius: 0.3em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.submitButton:hover, .submitButton:focus {
+  background-color: #363636;
+}
+
+/* Styling for the input field */
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #858585;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 6px 10px 6px 10px;
+}
+
+input[type=text]:focus {
+  border: 2px solid #363636;
+}
+
+/* Styling for the heading */
+.heading-one {
+  font-weight:400;
+  font-size:1.5rem;
+  color:#363636;
+}
+
+.heading-two {
+  font-weight:400;
+  font-size: 1.2rem;
+}
+
+.heading-three {
+  font-weight:300;
+  font-size: 1.2rem;
+}
+
+/* Styling for the paragraph */
+.paragraph {
+  font-weight:300;
+  line-height:1.2rem;
+  color:#363636;
+}
+
+/* Styling for the ul list */
+.ulList-dot ul{
+  font-weight:300;
+  line-height:1.8rem;
+  color:#363636;
+}
+
+/* Styling for the ol list */
+.olList{
+  font-weight:300;
+  line-height:1.8rem;
+  color:#363636;
+}
+
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+
+/* Styling for the navigation */
+.navigation{
+  width:100%;
+  height:auto;
+  background-color:#363636;
+}
+
+.ulList li {
+  line-height: 1rem;
+  display:inline-block;
+  text-align: center;
+}
+
+.ulList li img {
+  width:3rem;
+  height:1.5rem;
+  margin:auto;
+}
+
+.ulList a {
+  text-decoration: none;
+  font-weight:400;
+  color:#858585;
+  display:block;
+  padding:1rem;
+  width:5rem;
+}
+
+.ulList li a:hover {
+  background-color: #858585;
+  color:white;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+/* Styling for the product listing */
+.flexbox {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+.flex-left img {
+  padding:1rem;
+  width:10rem;
+  height:11.5rem;
+}
+
+.flex-right {
+  max-width: 25rem;
+  padding:1rem;
+}
+
+.price {
+  color:#858585;
+  font-weight:400;
+}
+
+/* Styling for the grid structure */
+.flexContainer {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+.flexContainer .block {
+  border: 2px solid black;
+  flex:1;
+  min-width:20rem;
+  height:10rem;
+}
+
+/* Styling for the color swatch */
+.flexContainer .block-one {
+  background-color: #858585;
+  border: 2px solid black;
+  min-width:20rem;
+  height:10rem;
+  flex:1;
+}
+
+.flexContainer .block-two {
+  background-color: #363636;
+  border: 2px solid black;
+  min-width:20rem;
+  height:10rem;
+  flex:1;
+}
+
+.flexContainer .block-three {
+  background-color: #fff;
+  border: 2px solid black;
+  min-width:20rem;
+  height:10rem;
+  flex:1;
+}

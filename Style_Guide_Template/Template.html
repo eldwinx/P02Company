@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1>Style Guide Template</h1>
+
+    <p>A template you can use to start building out your own style guides with.</p>
+
+    <nav>
+
+      <p>
+        Go to Interactive Sketches:
+        <a href="https://xd.adobe.com/view/a77193dd-8d78-4ce4-aafe-96e5f6fda103/?fullscreen">Desktop/Console Interactive Wireframe</a>,
+        <a href="https://xd.adobe.com/view/79584f42-35de-4bfc-a424-07910a236056/?fullscreen">Mobile Interactive Wireframe</a>,
+        <a href="https://xd.adobe.com/view/edcb8c5b-317c-4e80-8cd5-a9b4d9ccd14c/?fullscreen">SmartWatch Interactive Wireframe</a>,
+      </p>
+
+    </nav>
+
+    <p>
+      Go to References:
+      <a href="./Reference.html">Reference</a>
+    </p>
+
+    <nav>
+
+      <p>
+        Go to:
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <a href="#combined_elements">Combined Elements</a>,
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.in-text-link</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="in-text-link"&gt;In Text Link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="#" class="in-text-link">In Text Link</a>
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+        <h3>CSS selector:</h3>
+        <p>.submitButton</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="submitButton"&gt;Submit Button&lt;/a&gt;
+        &lt;a href="#" class="submitButton"&gt;Reset Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="submitButton" href="#">Submit Button</a>
+        <a class="submitButton" href="#">Reset Button</a>
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+        <h3>CSS selector:</h3>
+        <p>.inputField</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;input type="text" name="input" placeholder="input field"&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <input type="text" name="input" placeholder="input field">
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+        <h3>CSS selector:</h3>
+        <p>.heading-one .heading-two .heading-three</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="heading-one"&gt;Heading&lt;/div&gt;
+        &lt;div class="heading-two"&gt;Heading&lt;/div&gt;
+      &lt;div class="headin-threeg"&gt;Heading&lt;/div&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <div class="heading-one">Lorem Ipsum</div>
+        <div class="heading-two">Lorem Ipsum</div>
+        <div class="heading-three">Lorem Ipsum</div>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+        <h3>CSS selector:</h3>
+        <p>.paragraph</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="paragraph"&gt;Paragraph&lt;/div&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet orci quis diam volutpat egestas. Sed ac tincidunt ante. Duis facilisis turpis nec lectus scelerisque malesuada. Etiam id velit augue. Maecenas neque massa, mattis bibendum pretium vitae, pulvinar venenatis mi. Vestibulum mattis lectus ut aliquet molestie. Maecenas odio nisi, pellentesque dictum magna vitae, consectetur venenatis sem. Curabitur gravida nisi eget lacus pharetra consectetur. Cras ultrices nulla vel quam egestas luctus. Quisque porta, nibh at euismod hendrerit, dolor turpis placerat tellus, sit amet molestie metus arcu vitae quam.</div>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+        <h3>CSS selector:</h3>
+        <p>.ulList-dot</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ul class="ulList-dot"&gt;&lt;li&gt;Item1&lt;/li&gt;&lt;li&gt;Item2&lt;/li&gt;&lt;li&gt;Item3&lt;/li&gt;&lt;/ul&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ul class="ulList-dot"><li>Item1</li><li>Item2</li><li>Item3</li></ul>
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+        <h3>CSS selector:</h3>
+        <p>.olList</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ol class="olList"&gt;&lt;li&gt;Item1&lt;/li&gt;&lt;li&gt;Item2&lt;/li&gt;&lt;li&gt;Item3&lt;/li&gt;&lt;/ol&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ol class="olList"><li>Item1</li><li>Item2</li><li>Item3</li></ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+        <h3>CSS selector:</h3>
+        <p>.ulList .ulList li .ulList li img .ulList a .ulList a :hover .navigation</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="navigation"&gt;<br>
+          &lt;ul class="ulList"&gt;<br>
+          &lt;li&gt;&lt;a href="#"&gt;&lt;img src="./img/placeholder.png" alt="img"&gt;BLOG&lt;/a&gt;&lt;/li&gt;<br>
+          &lt;li&gt;&lt;a href="#"&gt;&lt;img src="./img/placeholder.png" alt="img"&gt;COMPANY&lt;/a&gt;&lt;/li&gt;<br>
+          &lt;li&gt;&lt;a href="#"&gt;&lt;img src="./img/placeholder.png" alt="img"&gt;GAMES&lt;/a&gt;&lt;/li&gt;<br>
+          &lt;li&gt;&lt;a href="#"&gt;&lt;img src="./img/placeholder.png" alt="img"&gt;JOBS&lt;/a&gt;&lt;/li&gt;<br>
+          &lt;li&gt;&lt;a href="#"&gt;&lt;img src="./img/placeholder.png" alt="img"&gt;CONTACT&lt;/a&gt;&lt;/li&gt;<br>
+          &lt;/div&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <div class="navigation">
+          <ul class="ulList">
+            <li><a href="#"><img src="./img/placeholder.png" alt="img">BLOG</a></li>
+            <li><a href="#"><img src="./img/placeholder.png" alt="img">COMPANY</a></li>
+            <li><a href="#"><img src="./img/placeholder.png" alt="img">GAMES</a></li>
+            <li><a href="#"><img src="./img/placeholder.png" alt="img">JOBS</a></li>
+            <li><a href="#"><img src="./img/placeholder.png" alt="img">CONTACT</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+        <h3>CSS selector:</h3>
+        <p>.heading-two .price .paragraph</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="flexbox"&gt;<br>
+              &lt;div class="flex-left"&gt;<br>
+              &lt;img src="./img/placeholder.png" alt="img"&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;div class="flex-right"&gt;<br>
+              &lt;div class="heading"&gt;Lorem ipsum dolor sit&lt;/div&gt;<br>
+              &lt;div class="price"&gt;$59.99&lt;/div&gt;<br>
+              &lt;div class="paragraph"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet orci quis diam volutpat egestas. Sed ac tincidunt ante. Duis facilisis turpis nec lectus scelerisque malesuada. Etiam id velit augue. Maecenas neque massa, mattis bibendum pretium vitae, pulvinar venenatis mi. Vestibulum mattis lectus ut aliquet molestie.&lt;/div&gt;<br>
+              &lt;/div&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <div class="flexbox">
+          <div class="flex-left">
+            <img src="./img/placeholder.png" alt="img"/>
+          </div>
+          <div class="flex-right">
+            <div class="heading-two">Lorem ipsum dolor sit</div>
+            <div class="price">$59.99</div>
+            <br>
+            <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet orci quis diam volutpat egestas. Sed ac tincidunt ante. Duis facilisis turpis nec lectus scelerisque malesuada. Etiam id velit augue. Maecenas neque massa, mattis bibendum pretium vitae, pulvinar venenatis mi. Vestibulum mattis lectus ut aliquet molestie.</div>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <h2>Grid Structure</h2>
+        <h3>CSS selector:</h3>
+        <p>.flexContainer .block</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="flexContainer"&gt;<br>
+              &lt;div class="block"&gt;<br>
+              &lt;p&gt;Block One&lt;/p&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;div class="block"&gt;<br>
+              &lt;p&gt;Block Two&lt;/p&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;div class="block"&gt;<br>
+              &lt;p&gt;Block Three&lt;/p&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;/div&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <div class="flexContainer">
+          <div class="block">
+            <p>Block One</p>
+          </div>
+          <div class="block">
+            <p>Block One</p>
+          </div>
+          <div class="block">
+            <p>Block One</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <section>
+      <h2>Color Swatch</h2>
+      <h3>CSS selector:</h3>
+      <p>.flexContainer .block-one .block-two .block-three</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;div class="flexContainer"&gt;<br>
+            &lt;div class="block-one"&gt;<br>
+            &lt;p&gt;#363636&lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class="block-two"&gt;<br>
+            &lt;p&gt;#858585&lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class="block-three"&gt;<br>
+            &lt;p&gt;#fff&lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;/div&gt;
+      </code>
+
+      <h3>Rendered element:</h3>
+      <div class="flexContainer">
+        <div class="block-one">
+          <p>#858585</p>
+        </div>
+        <div class="block-two">
+          <p>#363636</p>
+        </div>
+        <div class="block-three">
+          <p>#fff</p>
+        </div>
+      </div>
+
+  </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>
