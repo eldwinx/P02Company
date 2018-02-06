@@ -3,7 +3,7 @@
   Default styling for the style guide
 */
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 2rem;
   font-weight:400;
 }
@@ -39,52 +39,52 @@ section code {
 .button-nav {
   display: inline-block;
   padding: 0.5em 0.75em;
-  font-weight:400;
-  color: #858585;
-  background-color: #363636;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #4074ca;
+  color: #4074ca;
+  font-weight:700;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: #858585;
+  background-color: #4074ca;
   color:white;
 }
 
 /* Styling for the in text link */
 .in-text-link {
-  color:#363636;
-  font-weight:400;
+  color:#4074ca;
+  font-weight:500;
   text-decoration:none;
 }
 
 .in-text-link:hover, .in-text-link:focus {
-  color: #858585;
+  color: #000080;
 }
 
 /* Styling for the submit button */
 .submitButton {
   display: inline-block;
   padding: 0.5em 0.75em;
-  color: #FFF;
-  font-weight:300;
-  background-color: #858585;
-  border-radius: 0.3em;
+  color: #4074ca;
+  font-weight:700;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
 
 .submitButton:hover, .submitButton:focus {
-  background-color: #363636;
+  color: #000080;
 }
 
 /* Styling for the input field */
 input[type=text] {
     width: 130px;
     box-sizing: border-box;
-    border: 2px solid #858585;
+    border: 2px solid #b1e4ff;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
@@ -92,43 +92,42 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  border: 2px solid #363636;
+  border: 2px solid #4074ca;
 }
 
 /* Styling for the heading */
 .heading-one {
-  font-weight:400;
-  font-size:1.5rem;
-  color:#363636;
+  font-weight:700;
+  font-size:3rem;
+  color:#4074ca;
 }
 
 .heading-two {
-  font-weight:400;
-  font-size: 1.2rem;
+  font-weight:500;
+  font-size: 2rem;
+  color:#4074ca;
 }
 
 .heading-three {
-  font-weight:300;
-  font-size: 1.2rem;
+  font-weight:500;
+  font-size: 1.5rem;
+  color:#4074ca;
 }
 
 /* Styling for the paragraph */
 .paragraph {
-  font-weight:300;
   line-height:1.2rem;
   color:#363636;
 }
 
 /* Styling for the ul list */
 .ulList-dot ul{
-  font-weight:300;
   line-height:1.8rem;
   color:#363636;
 }
 
 /* Styling for the ol list */
 .olList{
-  font-weight:300;
   line-height:1.8rem;
   color:#363636;
 }
@@ -143,7 +142,7 @@ input[type=text]:focus {
 .navigation{
   width:100%;
   height:auto;
-  background-color:#363636;
+  background-color:#000080;
 }
 
 .ulList li {
@@ -160,16 +159,15 @@ input[type=text]:focus {
 
 .ulList a {
   text-decoration: none;
-  font-weight:400;
-  color:#858585;
+  font-weight:700;
+  color:#fff;
   display:block;
   padding:1rem;
   width:5rem;
 }
 
 .ulList li a:hover {
-  background-color: #858585;
-  color:white;
+  color:#4074ca;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
@@ -184,7 +182,7 @@ input[type=text]:focus {
 .flex-left img {
   padding:1rem;
   width:10rem;
-  height:11.5rem;
+  height:13rem;
 }
 
 .flex-right {
@@ -193,8 +191,8 @@ input[type=text]:focus {
 }
 
 .price {
-  color:#858585;
-  font-weight:400;
+  color:#4074ca;
+  font-weight:500;
 }
 
 /* Styling for the grid structure */
@@ -213,7 +211,7 @@ input[type=text]:focus {
 
 /* Styling for the color swatch */
 .flexContainer .block-one {
-  background-color: #858585;
+  background-color: #000080;
   border: 2px solid black;
   min-width:20rem;
   height:10rem;
@@ -221,7 +219,7 @@ input[type=text]:focus {
 }
 
 .flexContainer .block-two {
-  background-color: #363636;
+  background-color: #4074ca;
   border: 2px solid black;
   min-width:20rem;
   height:10rem;
@@ -229,6 +227,22 @@ input[type=text]:focus {
 }
 
 .flexContainer .block-three {
+  background-color: #363636;
+  border: 2px solid black;
+  min-width:20rem;
+  height:10rem;
+  flex:1;
+}
+
+.flexContainer .block-four {
+  background-color: #b1e4ff;
+  border: 2px solid black;
+  min-width:20rem;
+  height:10rem;
+  flex:1;
+}
+
+.flexContainer .block-five {
   background-color: #fff;
   border: 2px solid black;
   min-width:20rem;
