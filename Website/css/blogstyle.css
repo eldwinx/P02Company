@@ -6,8 +6,12 @@ h2 a:hover {
   color:#b1e4ff;
 }
 
+.bgimage {
+  height:60%;
+}
+
 #space {
-  height:19rem;
+  height:6rem;
   width:100%;
 }
 
