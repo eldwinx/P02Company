@@ -28,6 +28,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   position:fixed;
   width:100%;
   height:4.5rem;
+	z-index: 600;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
@@ -37,6 +38,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-color:#000080;
   width:100%;
   height:4.5rem;
+	z-index: 600;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
@@ -100,6 +102,11 @@ li a:hover {
   height:90%;
 }
 
+#space {
+	height:14rem;
+	width:100%;
+}
+
 .bgimage {
   z-index: -1;
   width:100%;
@@ -115,7 +122,7 @@ li a:hover {
   justify-content:center;
   width:90%;
   margin:auto;
-  padding-top:20rem;
+  padding-top:21%;
 }
 
 h1 {
@@ -149,7 +156,7 @@ h2 a:hover {
 }
 
 #latestBlog {
-  margin-top:13%;
+  /* margin-top:13%; */
   text-align: center;
 }
 
@@ -158,6 +165,7 @@ h2 a:hover {
   flex-direction: row;
   flex-wrap:wrap;
   justify-content:center;
+	margin-top:3rem;
 }
 
 .blogFlex {
@@ -207,4 +215,152 @@ h2 a:hover {
 
 .blogFlex .author p{
   text-align: left;
+}
+
+
+#space2 {
+	height:8rem;
+	width:100%;
+}
+
+#gameBox {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	height: 30rem;
+	width: 100%;
+	z-index: -1;
+}
+
+#gamePromo_left {
+	width:50%;
+	height:100%;
+	text-align:center;
+	cursor:default;
+	position:relative;
+}
+
+#gamePromo_left img {
+	display:block;
+	width:100%;
+	height:100%;
+	opacity: 1;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+
+#gamePromo_right {
+	width:25%;
+	height:50%;
+	text-align:center;
+	position:relative;
+}
+
+#gamePromo_right img {
+	display:block;
+	width:100%;
+	height:100%;
+	opacity: 1;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.overlaytext{
+  position:absolute;
+  display:block;
+  left:0;
+  right:0;
+  bottom:0;
+  top:0;
+  vertical-align: middle;
+  margin:auto;
+  width:100%;
+  text-align:center;
+	font-size: 2rem;
+  color:#b1e4ff;
+  height:50px;
+  opacity:1;
+	cursor: default;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+
+#gamePromo_left img:hover {
+	opacity: 0.3;
+	-webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#gamePromo_left:hover .overlaytext {
+	opacity: 0;
+	-webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#gamePromo_right img:hover {
+	opacity: 0.3;
+	-webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#gamePromo_right:hover .overlaytext {
+	opacity: 0;
+	-webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.footer {
+  height: 15rem;
+	background-color:#000080;
+}
+
+#footerText {
+	font-size: 1.5rem;
+	font-weight:700;
+	color:#4074ca;
+	padding-top: 4rem;
+	text-align: center;
+}
+
+#footerText_copyright {
+	font-size: 1rem;
+	font-weight:400;
+	color:#4074ca;
+	padding-top:5rem;
+	padding-left: 2rem;
+	text-align: left;
+}
+
+
+
+@media only screen and (min-width: 1900px) {
+	#space {
+		height:22rem;
+	}
+
+	#gameBox {
+		height: 40rem;
+	}
 }
