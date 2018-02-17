@@ -31,14 +31,14 @@ h2 a:hover {
   display:flex;
   flex-direction: row;
   flex-wrap:wrap;
-  justify-content:flex-start;
+  justify-content:center;
   width:80%;
   margin:auto;
 }
 
 .blogImage {
   padding-top:2rem;
-  width:45%;
+  width:30rem;
   height:22rem;
 }
 
@@ -51,7 +51,7 @@ h2 a:hover {
 .blogText {
   padding-left:5%;
   padding-top:2rem;
-  width:50%;
+  width:40rem;
 }
 
 .blogText a {
@@ -68,6 +68,6 @@ h2 a:hover {
 
 @media only screen and (min-width: 1900px) {
 	#space {
-		height:27rem;
+		height:10rem;
 	}
 }
