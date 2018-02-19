@@ -1,0 +1,16 @@
+.blogDetailContainer {
+	padding-top:2rem;
+	clear:both;
+	text-align: left;
+}
+
+.blogDetailContainer .gameImage {
+	width:100%;
+	height:auto;
+}
+
+@media only screen and (min-width: 1900px) {
+	#space {
+		height:22rem;
+	}
+}

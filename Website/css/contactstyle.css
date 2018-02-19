@@ -1,0 +1,141 @@
+#contactSection {
+  height:auto;
+  width:100%;
+  background-color: #363636;
+}
+
+.contactContainer {
+  width:80%;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  margin:auto;
+}
+
+.contactText {
+  flex:5;
+  min-width: 30rem;
+}
+
+.contactText h2 {
+  margin-top:4rem;
+  color:white;
+}
+
+.contactText p {
+  color:white;
+}
+
+.emptyFlex {
+  flex:1;
+}
+
+#contactMap {
+  flex:5;
+  height:20rem;
+  min-width: 30rem;
+}
+
+.space2 {
+  height:4rem;
+  width:auto;
+}
+
+.container {
+  max-width: 40rem;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact {
+  padding: 25px;
+  margin: 4rem 0;
+}
+
+#contact h3 {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+#contact h4 {
+  margin: 0;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+  width: 100%;
+  border: 2px solid #b1e4ff;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 2px solid #4074ca;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  padding: 0.5em 0.75em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #4074ca;
+  color: #4074ca;
+  background-color: white;
+  font-weight:700;
+  text-decoration: none;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size:1rem;
+}
+
+#contact button[type="submit"]:hover {
+  background: #4074ca;
+  color:white;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 2px solid #4074ca;
+}
+
+
+@media only screen and (min-width: 1900px) {
+	#space {
+		height:10rem;
+	}
+}

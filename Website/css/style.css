@@ -239,6 +239,7 @@ h2 a:hover {
 	text-align:center;
 	cursor:default;
 	position:relative;
+	min-width: 30rem;
 }
 
 #gamePromo_left img {
@@ -258,6 +259,7 @@ h2 a:hover {
 	height:50%;
 	text-align:center;
 	position:relative;
+	min-width: 15rem;
 }
 
 #gamePromo_right img {
