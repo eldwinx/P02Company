@@ -413,6 +413,17 @@ h2 a:hover {
 		display:none;
 	}
 
+	#textBlock {
+		padding-top:0rem;
+		height:22rem;
+	}
+
+	#space {
+		height:13rem;
+		width:100%;
+	}
+
+
 /*animation css credit to Alberto Jerez, modified by Eldwin*/
 .menu-wrapper {
 	display:block;
