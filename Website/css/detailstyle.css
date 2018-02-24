@@ -62,8 +62,17 @@
 	height:auto;
 }
 
+.space {
+  height:6rem;
+  width:100%;
+}
+
 @media only screen and (min-width: 1900px) {
 	#space {
+		height:22rem;
+	}
+
+	.space {
 		height:22rem;
 	}
 }

@@ -254,7 +254,7 @@ h2 a:hover {
 	transition: opacity 0.2s ease-in-out;
 }
 
-#gamePromo_right {
+.gamePromo_right {
 	width:25%;
 	height:50%;
 	text-align:center;
@@ -262,7 +262,7 @@ h2 a:hover {
 	min-width: 15rem;
 }
 
-#gamePromo_right img {
+.gamePromo_right img {
 	display:block;
 	width:100%;
 	height:100%;
@@ -315,7 +315,7 @@ h2 a:hover {
   transition: opacity 0.2s ease-in-out;
 }
 
-#gamePromo_right img:hover {
+.gamePromo_right img:hover {
 	opacity: 0.3;
 	-webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out;
@@ -324,7 +324,7 @@ h2 a:hover {
   transition: opacity 0.2s ease-in-out;
 }
 
-#gamePromo_right:hover .overlaytext {
+.gamePromo_right:hover .overlaytext {
 	opacity: 0;
 	-webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out;
@@ -355,7 +355,9 @@ h2 a:hover {
 	text-align: left;
 }
 
-
+	.menu-wrapper {
+	display:none;
+}
 
 @media only screen and (min-width: 1900px) {
 	#space {
@@ -365,4 +367,135 @@ h2 a:hover {
 	#gameBox {
 		height: 40rem;
 	}
+
+}
+
+@media only screen and (max-width: 970px) {
+	.squareone {
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 740px) {
+	header {
+		display:none;
+	}
+
+/*animation css credit to Alberto Jerez, modified by Eldwin*/
+.menu-wrapper {
+	display:block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-top: 3rem;
+	margin-left: 1rem;
+}
+
+.menu {
+  position: relative;
+  width: 36px;
+  height: 6px;
+  background-color: #fff;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  margin: 5px;
+  color: #7482A5;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.menu label {
+  cursor: pointer;
+  position: absolute;
+  font-size: 2rem;
+  line-height: 30px;
+  top: -12px;
+  left: 48px;
+	color:#fff;
+}
+.menu:hover > ul.nav-links, .menu.open > ul.nav-links {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  opacity: 1;
+  width: 180px;
+  -webkit-transform: translateX(15px);
+          transform: translateX(15px);
+  pointer-events: auto;
+}
+
+.menu:after, .menu:before {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 6px;
+  background-color: #fff;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.menu:after {
+  top: 12px;
+}
+
+.menu:before {
+  top: -12px;
+}
+
+.menu:hover, .menu.open {
+  background-color: transparent;
+}
+
+.menu:hover::after, .menu:hover::before, .menu.open::after, .menu.open::before {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 18px;
+}
+
+.menu:hover::after, .menu.open::after {
+  -webkit-transform: translate(3px, -7px) rotate(405deg);
+          transform: translate(3px, -7px) rotate(405deg);
+}
+
+.menu:hover::before, .menu.open::before {
+  -webkit-transform: translate(12px, 17px) rotate(-405deg);
+          transform: translate(12px, 17px) rotate(-405deg);
+}
+
+.menu ul.nav-links {
+  margin: 0;
+  padding: 36px 0 0 0;
+  opacity: 0;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+.menu ul.nav-links li {
+  width: 100%;
+  padding: 4px 8px;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  border-left: 2px solid #fff;
+}
+
+.menu ul.nav-links li:hover, .menu ul.nav-links li.active {
+  color: white;
+  border-left: 2px solid #4074ca;
+}
 }
