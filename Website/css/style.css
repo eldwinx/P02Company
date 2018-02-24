@@ -387,7 +387,7 @@ h2 a:hover {
 	.squareone {
 		display:none;
 	}
-	
+
 	#textBlock {
 		padding-top:27.5rem;
 	}
@@ -400,6 +400,7 @@ h2 a:hover {
 	#space2 {
 		height:8rem;
 		width:100%;
+	}
 
 	#gamePromo_left {
  		flex:none;
