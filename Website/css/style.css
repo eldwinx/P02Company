@@ -387,8 +387,7 @@ h2 a:hover {
 	.squareone {
 		display:none;
 	}
-<<<<<<< HEAD
-<<<<<<< HEAD
+	
 	#textBlock {
 		padding-top:27.5rem;
 	}
@@ -401,16 +400,12 @@ h2 a:hover {
 	#space2 {
 		height:8rem;
 		width:100%;
-=======
 
 	#gamePromo_left {
  		flex:none;
 		width: 100%;
->>>>>>> 1a51825e968eb207ca989ffe9e2378473f3dd6ca
 	}
-=======
->>>>>>> parent of d30ca08... Edit banner spacing and text layout
-}
+
 
 @media only screen and (max-width: 740px) {
 	header {
