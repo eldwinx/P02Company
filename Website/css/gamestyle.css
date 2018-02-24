@@ -39,14 +39,17 @@ h2 {
   justify-content: center;
   padding-top:5rem;
   width:50%;
+  min-width:20rem;
 }
 
 .gameImage {
   width:15rem;
   height:20rem;
+  padding-top:1rem;
 }
 
 .gameTextBlock {
+  padding-top:1rem;
   padding-left:2rem;
   padding-right:2rem;
   width:22rem;
