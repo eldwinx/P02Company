@@ -226,21 +226,22 @@ h2 a:hover {
 
 #gameBox {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 	align-content: flex-start;
-	height: 30rem;
+	height: auto;
 	width: 100%;
 	z-index: -1;
 }
 
 #gamePromo_left {
-	flex:2;
+	flex:1;
 	height:100%;
 	text-align:center;
 	cursor:default;
 	position:relative;
-	min-width: 30rem;
+	min-width: 20rem;
+	width: calc(100% * (1/2));
 }
 
 #gamePromo_left img {
@@ -255,8 +256,19 @@ h2 a:hover {
 	transition: opacity 0.2s ease-in-out;
 }
 
-.gamePromo_right {
+.gamePromo_rightFlexbox {
 	flex:1;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	height: 100%;
+	width: calc(100% * (1/2));
+}
+
+.gamePromo_right {
+	flex-grow: 1;
+	width: calc(100% * (1/2));
 	height:50%;
 	text-align:center;
 	position:relative;
@@ -376,10 +388,11 @@ h2 a:hover {
 
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 980px) {
 	.squareone {
 		display:none;
 	}
+<<<<<<< HEAD
 	#textBlock {
 		padding-top:27.5rem;
 	}
@@ -392,6 +405,12 @@ h2 a:hover {
 	#space2 {
 		height:8rem;
 		width:100%;
+=======
+
+	#gamePromo_left {
+ 		flex:none;
+		width: 100%;
+>>>>>>> 1a51825e968eb207ca989ffe9e2378473f3dd6ca
 	}
 }
 
