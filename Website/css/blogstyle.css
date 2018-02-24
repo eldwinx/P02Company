@@ -11,7 +11,7 @@ h2 a:hover {
 }
 
 #space {
-  height:6rem;
+  height:17rem;
   width:100%;
 }
 
@@ -66,8 +66,41 @@ h2 a:hover {
   transition: color 0.5s ease-out;
 }
 
+#textBlock {
+  padding-top:21%;
+}
+
 @media only screen and (min-width: 1900px) {
 	#space {
 		height:10rem;
 	}
+
+  .space {
+    height:5rem;
+  }
+}
+#textBlock {
+  padding-top:27.5rem;
+}
+
+#space {
+  height:5rem;
+}
+
+@media only screen and (max-width: 970px) {
+  #textBlock {
+    padding-top:27.5rem;
+  }
+  #space {
+    height:5rem;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  #textBlock {
+    padding-top:7rem;
+  }
+  #space {
+    height:5rem;
+  }
 }

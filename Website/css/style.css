@@ -103,7 +103,7 @@ li a:hover {
 }
 
 #space {
-	height:14rem;
+	height:30rem;
 	width:100%;
 }
 
@@ -123,7 +123,7 @@ li a:hover {
   justify-content:center;
   width:90%;
   margin:auto;
-  padding-top:21%;
+  padding-top:27.5rem;
 }
 
 h1 {
@@ -360,6 +360,11 @@ h2 a:hover {
 	display:none;
 }
 
+#space {
+	height:17rem;
+
+}
+
 @media only screen and (min-width: 1900px) {
 	#space {
 		height:22rem;
@@ -375,11 +380,38 @@ h2 a:hover {
 	.squareone {
 		display:none;
 	}
+	#textBlock {
+		padding-top:27.5rem;
+	}
+
+	#space {
+		height:17rem;
+		width:100%;
+	}
+
+	#space2 {
+		height:8rem;
+		width:100%;
+	}
 }
 
 @media only screen and (max-width: 740px) {
 	header {
 		display:none;
+	}
+	#textBlock {
+		padding-top:7rem;
+		height:22rem;
+	}
+
+	#space {
+		height:13rem;
+		width:100%;
+	}
+
+	#space2 {
+		height:8rem;
+		width:100%;
 	}
 
 /*animation css credit to Alberto Jerez, modified by Eldwin*/

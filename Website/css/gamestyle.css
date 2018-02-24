@@ -90,12 +90,39 @@ h2 {
   width:100%;
 }
 
+#textBlock {
+  padding-top:27.5rem;
+}
+
+#space {
+  height:5rem;
+}
+
 @media only screen and (min-width: 1900px) {
 	#space {
 		height:10rem;
 	}
 
   .space {
-    height:10rem;
+    height:5rem;
+  }
+}
+
+
+@media only screen and (max-width: 970px) {
+  #textBlock {
+    padding-top:27.5rem;
+  }
+  #space {
+    height:5rem;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  #textBlock {
+    padding-top:7rem;
+  }
+  #space {
+    height:5rem;
   }
 }
