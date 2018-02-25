@@ -22,12 +22,10 @@
 	flex:1;
 }
 
+
 .purchase {
 	float:right;
 	flex:1;
-}
-
-.purchase {
 	cursor: pointer;
   width: 20%;
   padding: 0.5em 0.75em;
@@ -74,5 +72,23 @@
 
 	.space {
 		height:22rem;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+  .space {
+    height:0;
+  }
+
+	.gameImage {
+		padding-bottom:2rem;
+	}
+
+	.purchase {
+		font-size:0.6rem;
+	}
+
+	.emptyFlex {
+		flex:none;
 	}
 }

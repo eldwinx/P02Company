@@ -73,6 +73,14 @@ h2 a:hover {
 }
 
 @media only screen and (max-width: 740px) {
+  .bgimage {
+    height:85%;
+  }
+
+  #space {
+    height:0;
+  }
+
   .titleText {
     padding-top:30%;
   }
