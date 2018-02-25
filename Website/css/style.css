@@ -413,13 +413,23 @@ h2 a:hover {
 		display:none;
 	}
 
+	html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+	#text_right {
+	  flex:none;
+		display:none;
+	}
+
 	#textBlock {
 		padding-top:0rem;
 		height:22rem;
 	}
 
 	#space {
-		height:13rem;
+		height:3rem;
 		width:100%;
 	}
 
