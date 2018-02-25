@@ -16,7 +16,7 @@
 
 .completeText {
   flex:5;
-  min-width: 30rem;
+  min-width: 20rem;
 }
 
 .completeText h1 {
@@ -56,7 +56,7 @@
 }
 
 .container {
-  max-width: 40rem;
+  min-width: 20rem;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -64,6 +64,7 @@
 
 .image{
   height: 22rem;
+  width:100%;
 }
 
 .space2 {
