@@ -103,7 +103,7 @@ li a:hover {
 }
 
 #space {
-	height:20vh;
+	height:22vh;
 	width:100%;
 }
 
@@ -378,7 +378,7 @@ h2 a:hover {
 
 @media only screen and (min-width: 1900px) {
 	#space {
-		height:22rem;
+		height:22vh;
 	}
 
 	#gameBox {
@@ -394,10 +394,11 @@ h2 a:hover {
 
 	#textBlock {
 		padding-top:35vh;
+
 	}
 
 	#space {
-		height:17rem;
+		height:40vh;
 		width:100%;
 	}
 
@@ -436,12 +437,12 @@ h2 a:hover {
 	}
 
 	#textBlock {
-		padding-top:0rem;
-		height:22rem;
+		padding-top:10vh;
+		height:15rem;
 	}
 
 	#space {
-		height:3rem;
+		height:35vh;
 		width:100%;
 	}
 
