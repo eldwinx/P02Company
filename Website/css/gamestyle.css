@@ -100,6 +100,12 @@ h2 {
   }
 }
 
+@media only screen and (max-width: 980px) {
+  .space {
+    height: 32vh;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   .space {
     height:0;

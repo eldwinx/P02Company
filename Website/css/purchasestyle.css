@@ -17,7 +17,8 @@
 
 .purchaseText {
   flex:5;
-  min-width: 20rem;
+  min-width: 25rem;
+  margin-bottom:5rem;
 }
 
 .purchaseText h1 {
