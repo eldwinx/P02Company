@@ -134,6 +134,7 @@ fieldset {
 }
 
 
+
 @media only screen and (min-width: 1900px) {
 	#space {
 		height:10rem;
@@ -141,7 +142,11 @@ fieldset {
 }
 
 
+
 @media only screen and (max-width: 740px) {
+  #space {
+    height:15vh;
+  }
   #contactMap {
     margin-bottom:5rem;
   }
