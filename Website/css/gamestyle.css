@@ -86,17 +86,17 @@ h2 {
 }
 
 .space {
-  height:6rem;
+  height:20vh;
   width:100%;
 }
 
 @media only screen and (min-width: 1900px) {
 	#space {
-		height:10rem;
+		height:22vh;
 	}
 
   .space {
-    height:10rem;
+    height:22vh;
   }
 }
 
@@ -108,6 +108,6 @@ h2 {
 
 @media only screen and (max-width: 760px) {
   .space {
-    height:0;
+    height:30vh;
   }
 }

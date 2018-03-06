@@ -11,7 +11,7 @@ h2 a:hover {
 }
 
 #space {
-  height:6rem;
+  height:22vh;
   width:100%;
 }
 
@@ -68,7 +68,7 @@ h2 a:hover {
 
 @media only screen and (min-width: 1900px) {
 	#space {
-		height:10rem;
+		height:22vh;
 	}
 }
 
@@ -85,7 +85,7 @@ h2 a:hover {
   }
 
   #space {
-    height:0;
+    height:10vh;
   }
 
   .titleText {

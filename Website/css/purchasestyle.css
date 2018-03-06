@@ -151,6 +151,6 @@ fieldset {
 
 @media only screen and (min-width: 1900px) {
 	#space {
-		height:5rem;
+		height:10vh;
 	}
 }

@@ -67,24 +67,24 @@
 
 @media only screen and (min-width: 1900px) {
 	#space {
-		height:22rem;
+		height:22vh;
 	}
 
 	.space {
-		height:22rem;
+		height:22vh;
 	}
 }
 
 @media only screen and (max-width: 980px) {
 	.space {
-	  height:35vh;
+	  height:31vh;
 	}
 }
 
 
 @media only screen and (max-width: 760px) {
   .space {
-    height:0;
+    height:14vh;
   }
 
 	.gameImage {
